@@ -45,6 +45,9 @@ public class MainActivity extends AppCompatActivity {
                     } else if(currentSong!=null && !currentSong.isPlaying()){
                         currentSong.start();//resume play.
                         myAdapter.setPlayStatus(true);
+                        if(!currentSong.isPlaying()){
+                            myAdapter.setPlayStatus(false);
+                        }
                     }
                 } else {
                     //first stop current song if playing.
@@ -55,6 +58,10 @@ public class MainActivity extends AppCompatActivity {
                     //already prepared
                     currentSong = MediaPlayer.create(MainActivity.this, songList.get(position));
                     currentSong.start();
+                    if(!currentSong.isPlaying()){
+                        myAdapter.setPlayStatus(false);
+                    }
+
                     myAdapter.setCurrentPlayIndex(position);
                     myAdapter.setPlayStatus(true);
                 }
