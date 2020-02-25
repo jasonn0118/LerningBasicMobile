@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="textView">Bruschetta Recipe</string>
+    <string name="imgView">imgViewRecipe</string>
+    <string name="btnRecipe">View Recipe</string>
+    <string name="txtIngredient">Ingredients</string>
+    <string name="txtRecipeDetail1">4 Plum tomatos</string>
+    <string name="txtRecipeDetail2">6 Basil leaves</string>
+</resources>

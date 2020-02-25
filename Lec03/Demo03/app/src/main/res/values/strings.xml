@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Demo03</string>
+    <string name="txtTitle">Concert Tickets</string>
+    <string name="txtHintNumTxt">Number Of Tickets</string>
+    <string name="txtSpinnerPropmtVal">Concert Type</string>
+    <string name="btnFindCost">FIND THE COST</string>
+    <string name="imgConcertView">description</string>
+    <string-array name="concertTypes">
+        <item>Rock Band</item>
+        <item>Jazz Band</item>
+        <item>Blues Band</item>
+    </string-array>
+</resources>
